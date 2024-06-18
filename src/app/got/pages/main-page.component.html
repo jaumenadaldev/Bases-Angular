@@ -1,0 +1,18 @@
+<h1>GOT Personajes</h1>
+<hr />
+
+<div class="row">
+  <div class="col">
+
+    <!-- onDelete-->
+    <got-list [characterList]="characters"
+              (onDelete)="onDeleteCharacter($event)"></got-list>
+  </div>
+
+  <div class="col">
+    <!-- addCharacter-->
+    <got-add-character (onNewCharacter)="onNewCharacter($event)"></got-add-character>
+
+
+  </div>
+</div>

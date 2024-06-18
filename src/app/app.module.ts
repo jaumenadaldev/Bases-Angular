@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
-
+import { GotModule } from './got/got.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+
 
 
 
@@ -18,7 +20,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    GotModule
   ],
   providers: [],
   bootstrap: [AppComponent]
